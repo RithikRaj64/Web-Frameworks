@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApiController {
 
-    @RequestMapping("/name")
-    public String getName(@RequestBody String studentName) {
-        return "Welcome " + studentName + "!";
+    @RequestMapping("/favColor")
+    public String getMyFav(@RequestBody String yourFavColor) {
+        return "My Favourite color is " + yourFavColor;
     }
 }
