@@ -1,0 +1,110 @@
+[
+  {
+    "name": "main",
+    "commit": {
+      "id": "6a87e24df7bf28178043b7142a13595ea247f20f",
+      "message": "Initial commit\n",
+      "url": "https://try.gitea.io/RithikRaj64/Gittea/commit/6a87e24df7bf28178043b7142a13595ea247f20f",
+      "author": {
+        "name": "RithikRaj64",
+        "email": "rithikraj64@noreply.try.gitea.io",
+        "username": "RithikRaj64"
+      },
+      "committer": {
+        "name": "RithikRaj64",
+        "email": "rithikraj64@noreply.try.gitea.io",
+        "username": "RithikRaj64"
+      },
+      "verification": {
+        "verified": false,
+        "reason": "gpg.error.not_signed_commit",
+        "signature": "",
+        "signer": null,
+        "payload": ""
+      },
+      "timestamp": "2023-02-21T04:45:55Z",
+      "added": null,
+      "removed": null,
+      "modified": null
+    },
+    "protected": false,
+    "required_approvals": 0,
+    "enable_status_check": false,
+    "status_check_contexts": [],
+    "user_can_push": false,
+    "user_can_merge": false,
+    "effective_branch_protection_name": ""
+  },
+  {
+    "name": "master",
+    "commit": {
+      "id": "6a87e24df7bf28178043b7142a13595ea247f20f",
+      "message": "Initial commit\n",
+      "url": "https://try.gitea.io/RithikRaj64/Gittea/commit/6a87e24df7bf28178043b7142a13595ea247f20f",
+      "author": {
+        "name": "RithikRaj64",
+        "email": "rithikraj64@noreply.try.gitea.io",
+        "username": "RithikRaj64"
+      },
+      "committer": {
+        "name": "RithikRaj64",
+        "email": "rithikraj64@noreply.try.gitea.io",
+        "username": "RithikRaj64"
+      },
+      "verification": {
+        "verified": false,
+        "reason": "gpg.error.not_signed_commit",
+        "signature": "",
+        "signer": null,
+        "payload": ""
+      },
+      "timestamp": "2023-02-21T04:45:55Z",
+      "added": null,
+      "removed": null,
+      "modified": null
+    },
+    "protected": false,
+    "required_approvals": 0,
+    "enable_status_check": false,
+    "status_check_contexts": [],
+    "user_can_push": false,
+    "user_can_merge": false,
+    "effective_branch_protection_name": ""
+  },
+  {
+    "name": "test",
+    "commit": {
+      "id": "6a87e24df7bf28178043b7142a13595ea247f20f",
+      "message": "Initial commit\n",
+      "url": "https://try.gitea.io/RithikRaj64/Gittea/commit/6a87e24df7bf28178043b7142a13595ea247f20f",
+      "author": {
+        "name": "RithikRaj64",
+        "email": "rithikraj64@noreply.try.gitea.io",
+        "username": "RithikRaj64"
+      },
+      "committer": {
+        "name": "RithikRaj64",
+        "email": "rithikraj64@noreply.try.gitea.io",
+        "username": "RithikRaj64"
+      },
+      "verification": {
+        "verified": false,
+        "reason": "gpg.error.not_signed_commit",
+        "signature": "",
+        "signer": null,
+        "payload": ""
+      },
+      "timestamp": "2023-02-21T04:45:55Z",
+      "added": null,
+      "removed": null,
+      "modified": null
+    },
+    "protected": false,
+    "required_approvals": 0,
+    "enable_status_check": false,
+    "status_check_contexts": [],
+    "user_can_push": false,
+    "user_can_merge": false,
+    "effective_branch_protection_name": ""
+  }
+]
