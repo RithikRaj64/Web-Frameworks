@@ -21,7 +21,7 @@ public class ApiController {
     private ApiService apiService;
 
     @PostMapping("/")
-    public boolean saveEmployee(@RequestBody Student employee) {
+    public boolean saveStudent(@RequestBody Student employee) {
         return (apiService.saveStudent(employee) != null);
     }
 
