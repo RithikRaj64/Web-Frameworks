@@ -27,11 +27,8 @@ public class ApiService {
     }
 
     public Student updateStudentById(int id, Student student) {
-        Student existingStudent = studentRepo.findById(id).orElse(null);
-        existingStudent.setStudentName(student.getStudentName());
-        existingStudent.setDepartmentName(student.getDepartmentName());
-        existingStudent.setMailid(student.getMailid());
-        return studentRepo.save(existingStudent);
+        student.setId(id);
+        return studentRepo.saveAndFlush(student);
     }
 
     public boolean deleteStudentById(int id) {
