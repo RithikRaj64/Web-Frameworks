@@ -27,12 +27,8 @@ public class ApiService {
     }
 
     public Book updateBookById(int id, Book book) {
-        Book existingBook = bookRepo.findById(id).orElse(null);
-        existingBook.setBookName(book.getBookName());
-        existingBook.setPrice(book.getPrice());
-        existingBook.setQuantity(book.getQuantity());
-        existingBook.setAuthorName(book.getAuthorName());
-        return bookRepo.save(existingBook);
+        book.setId(id);
+        return bookRepo.saveAndFlush(book);
     }
 
     public boolean deleteBookById(int id) {
